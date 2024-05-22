@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function validateForm() {
+      // Get the email and password inputs
+      var emailInput = document.getElementById('emailInput');
+      var passwordInput = document.getElementById('passwordInput');
+      var wrapper = document.querySelector('.wrapper');
+
+      // Check if email and password are correct (dummy validation for demonstration) //احس يبي لنا نعدل عليها بعدين
+      if (emailInput.value !== 'Example@Example.Com' || passwordInput.value !== 'Password') {
+
+        // Add shaking and error effects
+        wrapper.classList.add('shake', 'error');
+        emailInput.closest('.input-area').classList.add('error');
+        passwordInput.closest('.input-area').classList.add('error');
+
+        return false; // Prevent form submission
+      }
+      // If correct, allow form submission
+      return true;
+    }
+  </script>
+</head>
+
+
+<body>
+
+  <!--header-->
+  <header>
+    <a href="#" class="logo">DineRiyadh<span>.</span></a>
+    <nav class="navbar">
+      <a href="HomePage.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="reserve.html">Reservation</a>
+    </nav>
+
+    <div class="icon">
+      <a href="signin.html" class="fas fa-user"></a>
+    </div>
+  </header>
+  <!--header-->
+
+
+  <!-- body -->
+  <div class="home">
+
+    <div class="bigwrapper">
+      <div class="wrapper">
+        <h1>Login</h1>
+        <form action="#" class="signinForm" onsubmit="return validateForm()">
+          <div class="field email">
+            <div class="input-area">
+              <input type="email" id="emailInput" placeholder="Email Address" required>
+              <i class="icon fas fa-envelope"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+          </div>
+          <br>
+          <div class="field password">
+            <div class="input-area">
+              <input type="password" id="passwordInput" placeholder="Password" required>
+              <i class="icon fas fa-lock"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+          </div>
+          <div class="pass-txt"><a href="#">Forgot password?</a></div>
+          <input type="submit" value="Login">
+        </form>
+        <div class="sign-txt">Not yet a member? <a href="#">Signup</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- body -->
+
+
+  <!--footer-->
+  <section class="footer">
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="HomePage.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="reserve.html">Reservation</a>
+      </div>
+
+      <div class="box">
+        <h3>Location</h3>
+        <a href="">Riyadh</a>
+      </div>
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <a href="">+123-456-7890</a>
+        <a href="mailto:aa1234@gmail.com">E-mail</a>
+        <img src="c:\Users\Nada\Desktop\img\196-1969151_visa-mastercard-apple-pay.png" alt="">
+      </div>
+
+    </div>
+  </section>
+  <!--footer-->
+
+</body>
+
+</html>

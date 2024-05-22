@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script>
+    function submitReservation(event) {
+      event.preventDefault(); // Prevent the default form submission
+      const formData = new FormData(event.target);
+      const data = {
+        firstName: formData.get('first-name'),
+        lastName: formData.get('last-name'),
+        email: formData.get('email'),
+        phone: formData.get('phone'),
+        date: formData.get('date'),
+        time: formData.get('time'),
+        people: formData.get('no-of-persons'),
+        restaurant: formData.get('menu'),
+        notes: formData.get('notes')
+      };
+
+      const queryParams = new URLSearchParams(data).toString();
+      window.location = `confirmation.html?${queryParams}`;
+    }
+
+  </script>
+</head>
+
+<body>
+
+  <!--header-->
+  <header>
+    <a href="#" class="logo">DineRiyadh<span>.</span></a>
+    <nav class="navbar">
+      <a href="HomePage.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="reserve.html">Reservation</a>
+    </nav>
+
+    <div class="icon">
+      <a href="signin.html" class="fas fa-user"></a>
+    </div>
+  </header>
+  <!--header-->
+
+
+
+  <!--body-->
+
+
+  <div class=" home container ">
+
+    <div class="content">
+
+    </div>
+    <div class="holder">
+      <div class="title">Make a reservation</div>
+      <div class="content1">
+        <form action="confirmation.html" method="GET" onsubmit="submitReservation(event)">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">first Name</span>
+              <input type="text" placeholder="Enter your first name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Last Name</span>
+              <input type="text" placeholder="Enter your last name" required>
+            </div>
+
+            <div class="input-box">
+              <span class="details">resturant/caffe</span>
+              <select id="menu" name="menu" class="details input-box">
+                <option value="nac">NAC Riyadh</option>
+                <option value="californiaburger">California Burger</option>
+                <option value="maki">Maki House</option>
+                <option value="halfmillion">Half Million</option>
+                <option value="beka">Beka</option>
+                <option value="urth">Urth Caffe</option>
+              </select>
+
+
+            </div>
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="text" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+              <input type="tel" placeholder="Enter phone number" name="phone" pattern="[0-9]{10}" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Date</span>
+              <input type="date" required>
+            </div>
+            <div class="input-box">
+              <span class="details">number of people</span>
+              <input type="number" placeholder="Number Of people" min="1" max="10" name="no-of-persons" required>
+            </div>
+            <div class="input-box">
+              <span class="details">time</span>
+              <input type="time" name="time" required>
+
+            </div>
+
+
+
+          </div>
+
+          <div class="input-box">
+            <span class="details">additional notes</span>
+            <textarea id="notes" name="notes" rows="4" cols="50"
+              placeholder="Have any specific orders? Write them here..."></textarea><br><br>
+          </div>
+
+
+          <div class="button">
+            <input type="submit" value="Book">
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+
+  <!--body-->
+
+
+
+
+
+  <!--footer-->
+  <section class="footer">
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="HomePage.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="reserve.html">Reservation</a>
+      </div>
+
+      <div class="box">
+        <h3>Location</h3>
+        <a href="">Riyadh</a>
+      </div>
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <a href="">+123-456-7890</a>
+        <a href="">E-mail</a>
+        <img src="c:\Users\Nada\Desktop\img\196-1969151_visa-mastercard-apple-pay.png" alt="">
+      </div>
+
+    </div>
+  </section>
+  <!--footer-->
+
+  <!-- Include JavaScript File -->
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Confirmation</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const params = new URLSearchParams(window.location.search);
+            document.getElementById('confirmName').textContent = params.get('firstName') + ' ' + params.get('lastName');
+            document.getElementById('confirmEmail').textContent = params.get('email');
+            document.getElementById('confirmPhone').textContent = params.get('phone');
+            document.getElementById('confirmDate').textContent = params.get('date');
+            document.getElementById('confirmTime').textContent = params.get('time');
+            document.getElementById('confirmPeople').textContent = params.get('people');
+            document.getElementById('confirmRestaurant').textContent = params.get('restaurant');
+            document.getElementById('confirmNotes').textContent = params.get('notes');
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <!--header-->
+  <header>
+    <a href="#" class="logo">DineRiyadh<span>.</span></a>
+    <nav class="navbar">
+      <a href="HomePage.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="reserve.html">Reservation</a>
+    </nav>
+
+    <div class="icon">
+      <a href="signin.html" class="fas fa-user"></a>
+    </div>
+  </header>
+  <!--header-->
+
+
+  <!-- body -->
+
+  <div class="home">
+
+    <div class="confirmation-BigContainer">
+        <div class="confirmation-container">
+            <h1>Reservation Confirmed!</h1>
+            <p><strong>Name:</strong> <span id="confirmName"></span></p>
+            <p><strong>Email:</strong> <span id="confirmEmail"></span></p>
+            <p><strong>Phone:</strong> <span id="confirmPhone"></span></p>
+            <p><strong>Date:</strong> <span id="confirmDate"></span></p>
+            <p><strong>Time:</strong> <span id="confirmTime"></span></p>
+            <p><strong>Number of People:</strong> <span id="confirmPeople"></span></p>
+            <p><strong>Restaurant:</strong> <span id="confirmRestaurant"></span></p>
+            <p><strong>Notes:</strong> <span id="confirmNotes"></span></p>
+        </div>
+    </div>
+    <a id="con" href="HomePage.html">Return Home</a>
+
+
+  </div>
+    <!-- body -->
+
+    
+    <!--footer-->
+  <section class="footer">
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="HomePage.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="reserve.html">Reservation</a>
+      </div>
+
+      <div class="box">
+        <h3>Location</h3>
+        <a href="">Riyadh</a>
+      </div>
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <a href="">+123-456-7890</a>
+        <a href="mailto:aa1234@gmail.com">E-mail</a>
+        <img src="c:\Users\Nada\Desktop\img\196-1969151_visa-mastercard-apple-pay.png" alt="">
+      </div>
+
+    </div>
+  </section>
+  <!--footer-->
+</body>
+
+</html>
