@@ -9,9 +9,10 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const params = new URLSearchParams(window.location.search);
-            document.getElementById('confirmName').textContent = params.get('firstName') + ' ' + params.get('lastName');
-            document.getElementById('confirmEmail').textContent = params.get('email');
-            document.getElementById('confirmPhone').textContent = params.get('phone');
+            document.getElementById('confirmName').textContent = params.get('firstName').value + ' ' + params.get('lastName').value;
+            document.getElementById('confirmEmail').textContent = document.getElementById("confirmEmail").value;/*params.get('email').value*/
+            
+            document.getElementById('confirmPhone').textContent = params.get('phone').value;
             document.getElementById('confirmDate').textContent = params.get('date');
             document.getElementById('confirmTime').textContent = params.get('time');
             document.getElementById('confirmPeople').textContent = params.get('people');
@@ -56,7 +57,11 @@
             <p><strong>Restaurant:</strong> <span id="confirmRestaurant"></span></p>
             <p><strong>Notes:</strong> <span id="confirmNotes"></span></p>
             <p><a id="con" href="HomePage.html">Return Home</a></p>
+
         </div>
+        
+          
+          
     </div>
     
 

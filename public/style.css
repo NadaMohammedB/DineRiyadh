@@ -19,6 +19,7 @@ header{
   justify-content: space-between;
   z-index: 1000;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.1);
+  margin-bottom: 50px;
 }
 
 header .logo{
@@ -178,6 +179,8 @@ section{
   align-items: center;
   justify-content: center;
   padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .wrapper {
@@ -212,12 +215,23 @@ section{
   transition: all 0.2s ease;
 }
 
+form .field .input-area {
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+form .pass-txt {
+  text-align: center;
+  padding-top: 5%;
+}
 
 .signinForm input::placeholder {
   color: #bfbfbf;
   font-size: 17px;
 }
-
+.signinForm input:focus {
+  border-color: #27CAC5;  /* Changes the border color to aqua on focus */
+}
 .wrapper a {
   color: #27CAC5;
   text-decoration: none;
@@ -297,7 +311,7 @@ section{
 /*Starting About style*/
 .containerAbout {
   max-width: 800px;
-  margin: 50px auto;
+  margin: 9rem auto;
   padding: 20px;
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -486,10 +500,13 @@ form .input-box span.details{
 /*Start confirmation*/
 .confirmation-BigContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100rem;
+  width: 100rem;
   padding: 20px;
+  
 }
 
 .confirmation-container {
@@ -497,9 +514,11 @@ form .input-box span.details{
   padding: 25px 30px;
   border-radius: 5px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  width: 50%;
+  
 }
-
+#ret{
+  margin-left: 40%;
+}
 .confirmation-container h1 {
   color: black;
   margin-bottom: 20px;
@@ -526,6 +545,7 @@ form .input-box span.details{
   border-radius: 5px;
   font-weight: bold;
   text-align: center;
+  margin-left: 90px;
 }
 
 #con:hover {

@@ -7,7 +7,7 @@ const places = [
   { name: 'Beka', type: 'Cafe', location: 'Riyadh', rating: 4.3 },
   { name: 'NAC Riyadh', type: 'Restaurant', location: 'Riyadh', rating: 4.0 },
   { name: 'Maki House', type: 'Restaurant', location: 'Riyadh', rating: 4.4 },
-  { name: 'Maki House', type: 'Restaurant', location: 'Riyadh', rating: 4.8 },
+  { name: 'California Burger', type: 'Restaurant', location: 'Riyadh', rating: 4.2 },
 ];
 
 function filterResults() {
