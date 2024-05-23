@@ -7,6 +7,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const urlParams = new URLSearchParams(window.location.search);
+      const user = urlParams.get('user');
+      if (user) {
+        const userIcon = document.querySelector('.icon');
+        const userGreeting = document.createElement('span');
+        userGreeting.textContent = `Hello ${user}`;
+        userGreeting.style.marginLeft = '10px';
+        userIcon.appendChild(userGreeting);
+      }
+    });
+  </script>
+
 </head>
 
 <body>
@@ -105,8 +119,7 @@
 
   <!-- loader -->
   <div class="loader-container">
-    <img src="img/cutlery.gif"
-    width="150" alt="">
+    <img src="img/cutlery.gif" width="150" alt="">
   </div>
   <!-- loader -->
 

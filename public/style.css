@@ -172,7 +172,7 @@ section{
 
 
 /* starting signin page style*/
-.bigwrapper{
+.bigwrapper {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -197,6 +197,7 @@ section{
   font-size: 35px;
   font-weight: 600;
 }
+
 .wrapper form {
   margin: 40px 0;
 }
@@ -220,6 +221,7 @@ form .field .input-area {
   width: 100%;
   position: relative;
 }
+
 form .pass-txt {
   text-align: center;
   padding-top: 5%;
@@ -229,9 +231,12 @@ form .pass-txt {
   color: #bfbfbf;
   font-size: 17px;
 }
+
 .signinForm input:focus {
-  border-color: #27CAC5;  /* Changes the border color to aqua on focus */
+  border-color: #27CAC5;
+  /* Changes the border color to aqua on focus */
 }
+
 .wrapper a {
   color: #27CAC5;
   text-decoration: none;
@@ -284,27 +289,11 @@ form .pass-txt {
 
 .wrapper.shake {
   animation: shake 0.5s;
-  /* Apply shake animation */
-  animation-iteration-count: 1;
-  /* Shake only once */
-}
-
-.wrapper.error {
+  animation-iteration-count: 2;
   border: 2px solid #dc3545;
-  /* Red border to indicate error */
-  background-color: #fff;
-  /* Light red background color */
-}
 
-.input-area.error input,
-.input-area.error .icon {
-  border-color: #dc3545;
-  /* Red border for input and icon */
-  color: #dc3545;
-  /* Red color for icon */
 }
 /*Ending shake if incorrect information entered*/
-
 /* ending signin page style*/
 
 
@@ -551,5 +540,4 @@ form .input-box span.details{
 #con:hover {
   background-color: lightgray;
 }
-
 /*End confirmation*/
