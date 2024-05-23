@@ -490,12 +490,13 @@ form .input-box span.details{
 .confirmation-BigContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100rem;
+  height: 100vh;
   width: 100rem;
   padding: 20px;
-  
+  margin-top: 150px;
+  margin-bottom: 0;
+
 }
 
 .confirmation-container {
@@ -503,11 +504,13 @@ form .input-box span.details{
   padding: 25px 30px;
   border-radius: 5px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  
+
 }
-#ret{
+
+#ret {
   margin-left: 40%;
 }
+
 .confirmation-container h1 {
   color: black;
   margin-bottom: 20px;
