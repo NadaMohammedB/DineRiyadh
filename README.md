@@ -10,6 +10,7 @@ DineRiyadh is a web application designed to make reserving and booking tables at
 
 <img width="1900" alt="Website Flowchart Template (Copy)-2" src="https://github.com/NadaMohammedB/CS346-web/assets/124522150/5a6d709f-b4c5-433e-8768-498b5357c6e6">
 
+![DineRiyadh_Flowchart](https://github.com/NadaMohammedB/CS346-web/assets/124522150/c9294b8a-3967-4b2d-bfa4-b048d974598b)
 
 
 
