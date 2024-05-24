@@ -80,6 +80,13 @@ Make sure you have the following installed on your machine:
 
 - [Flaticon](https://www.flaticon.com)
 - [Fontawesome](https://fontawesome.com)
+- [NAC Riyadh](https://www.instagram.com/p/Cyxo0ASuIBZ/?igsh=cG5mdnlldWhuNnFk)
+- [California Burger](https://www.instagram.com/p/C04BwAtoMp6/?igsh=cjRraGlpbm5tNW1w)
+- [Maki House](https://www.instagram.com/p/C5Q4cshsiiE/?igsh=NHY0bDk3enBrcHp5)
+- [Half Million](https://www.instagram.com/p/C1cOLRrtVug/?igsh=dXRvbGY5bWI5cjc=)
+- [Beka](https://www.instagram.com/p/C3daOn1olNl/?igsh=bTduOGU2dHp3NXZz)
+- [Urth caffe](https://www.instagram.com/p/CtuDEfKIrdG/?igsh=MXY2ZjJqZ3hsNWNlbA==)
+- [MidTown](https://lh5.googleusercontent.com/p/AF1QipM_EKJUUVejfMwVvt-9da2b4KLjwLKviI-22Ck2=w190-h317-n-k-no-nu)
 
 ## Contributers
 
