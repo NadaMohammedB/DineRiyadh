@@ -87,6 +87,9 @@ Make sure you have the following installed on your machine:
 - [Beka](https://www.instagram.com/p/C3daOn1olNl/?igsh=bTduOGU2dHp3NXZz)
 - [Urth caffe](https://www.instagram.com/p/CtuDEfKIrdG/?igsh=MXY2ZjJqZ3hsNWNlbA==)
 - [MidTown](https://lh5.googleusercontent.com/p/AF1QipM_EKJUUVejfMwVvt-9da2b4KLjwLKviI-22Ck2=w190-h317-n-k-no-nu)
+- [Laysen Valley](https://www.instagram.com/p/CvM6KGSNqFE/?igsh=ZzJwb2xtbTJodnJy)
+- [Sumosan](https://www.instagram.com/p/C37qMRtNsXJ/?igsh=YjM2b3FscTJ5djFz)
+- [Entrecote Cafe De Paris](https://www.instagram.com/p/Cs4Cjr5oDe7/?igsh=MWlpcWR4djFrcTU5dQ==)
 
 ## Contributers
 
