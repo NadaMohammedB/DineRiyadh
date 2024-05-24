@@ -209,7 +209,7 @@ section{
   padding: 0 45px;
   font-size: 18px;
   background: none;
-  caret-color: #27CAC5;
+  caret-color: rgb(104, 200, 232);
   border-radius: 5px;
   border: 1px solid #bfbfbf;
   border-bottom-width: 2px;
@@ -233,12 +233,12 @@ form .pass-txt {
 }
 
 .signinForm input:focus {
-  border-color: #27CAC5;
+  border-color: rgb(104, 200, 232);
   /* Changes the border color to aqua on focus */
 }
 
 .wrapper a {
-  color: #27CAC5;
+  color: rgb(104, 200, 232);
   text-decoration: none;
 }
 
@@ -252,7 +252,7 @@ form .pass-txt {
   color: #fff;
   padding: 0;
   border: none;
-  background: #27CAC5;
+  background: rgb(104, 200, 232);
   cursor: pointer;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
