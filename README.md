@@ -8,6 +8,11 @@ DineRiyadh is a web application designed to make reserving and booking tables at
 - **User:** sign in to manage your reservations.
 - **Browse Venues:** Explore a variety of dining options available in Riyadh.
 
+<img width="2417" alt="Website Flowchart Template (Copy)" src="https://github.com/NadaMohammedB/CS346-web/assets/124522150/ed7697ca-f2f1-4f98-996f-fb486bb03feb">
+
+
+  
+
 ## Goals
 
 
