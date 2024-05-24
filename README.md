@@ -70,7 +70,7 @@ Make sure you have the following installed on your machine:
    ## Future work
 
 
-- **Working on additional pages, such as the sign-up and forgot password pages** 
+- **Working on additional pages, such as the sign-up and forget password pages** 
 - **Link the other pages with the database** 
 - **Expand the options of caffes, restaurants and other spots**
 - **Let users rate cafes and restaurants to share their experiences**
