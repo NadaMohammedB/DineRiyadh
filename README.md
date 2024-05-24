@@ -86,6 +86,11 @@ Make sure you have the following installed on your machine:
 - **Let users rate cafes and restaurants to share their experiences**
 - **Improve the quality of our website and add more features**
 
+  ## Demo & Presentation  
+
+- [Presentation](https://www.canva.com/design/DAGGGfDto4A/eHPn0O822OyWSzWT9uIeWQ/view?utm_content=DAGGGfDto4A&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+
    ## Resources 
 
 - [Flaticon](https://www.flaticon.com)
@@ -101,10 +106,7 @@ Make sure you have the following installed on your machine:
 - [Sumosan](https://www.instagram.com/p/C37qMRtNsXJ/?igsh=YjM2b3FscTJ5djFz)
 - [Entrecote Cafe De Paris](https://www.instagram.com/p/Cs4Cjr5oDe7/?igsh=MWlpcWR4djFrcTU5dQ==)
 
- ## Demo & Presentation  
-
-- [Presentation](https://www.canva.com/design/DAGGGfDto4A/eHPn0O822OyWSzWT9uIeWQ/view?utm_content=DAGGGfDto4A&utm_campaign=designshare&utm_medium=link&utm_source=editor)
-
+ 
 ## Contributers
 
 
