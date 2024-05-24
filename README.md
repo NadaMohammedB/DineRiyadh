@@ -72,8 +72,8 @@ Make sure you have the following installed on your machine:
 - **Work on a sign up page** 
 - **Link the other pages with the database** 
 - **Expand the options of caffes, restaurants and other spots**
-- **Improve the quality of our website and add more features**
 - **Let users rate cafes and restaurants to share their experiences**
+- **Improve the quality of our website and add more features**
 
    ## Resources 
 
