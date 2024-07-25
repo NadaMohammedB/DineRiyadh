@@ -69,11 +69,11 @@ Make sure you have the following installed on your machine:
    The application should now be running on http://localhost:3000.
 
   ## Screenshots
-   <img width="1440" alt="homepage1" src="https://github.com/NadaMohammedB/CS346-old2/assets/124522150/bf86e986-6956-4804-93ad-b5908f6d404f">
-   <img width="1440" alt="Screenshot 2024-05-24 at 2 40 47 AM" src="https://github.com/NadaMohammedB/CS346-old2/assets/124522150/3a74d897-f0b4-4071-8fa6-dee9b7ecd422">
-   <img width="1440" alt="resturants" src="https://github.com/NadaMohammedB/CS346-old2/assets/124522150/14215726-e0ef-4c11-bc5a-64a8ef85bc0e">
-   <img width="1440" alt="reserve" src="https://github.com/NadaMohammedB/CS346-old2/assets/124522150/5750b8a2-ff17-4eda-89b5-4c292fbc60e6">
-   <img width="1440" alt="Screenshot 2024-05-24 at 6 09 43 AM" src="https://github.com/NadaMohammedB/CS346-web/assets/124522150/3941bf98-c30f-45e5-bbaa-5aa0d6ed0939">
+   <img width="1440" alt="homepage1" src="https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/bf86e986-6956-4804-93ad-b5908f6d404f">
+   <img width="1440" alt="Screenshot 2024-05-24 at 2 40 47 AM" src="https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/3a74d897-f0b4-4071-8fa6-dee9b7ecd422">
+   <img width="1440" alt="resturants" src="https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/14215726-e0ef-4c11-bc5a-64a8ef85bc0e">
+   <img width="1440" alt="reserve" src="https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/5750b8a2-ff17-4eda-89b5-4c292fbc60e6">
+   <img width="1440" alt="Screenshot 2024-05-24 at 6 09 43 AM" src="https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/3941bf98-c30f-45e5-bbaa-5aa0d6ed0939">
 
 
 
