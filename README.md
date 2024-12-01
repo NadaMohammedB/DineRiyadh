@@ -69,12 +69,17 @@ Make sure you have the following installed on your machine:
    The application should now be running on http://localhost:3000.
 
   ## Screenshots
-   <img width="1440" alt="homepage1" src="![Screenshot (129)](https://github.com/user-attachments/assets/800ae253-8b17-4331-b5f6-72cde51cc005)
-">
-   <img width="1440" alt="Screenshot 2024-05-24 at 2 40 47 AM" src="https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/3a74d897-f0b4-4071-8fa6-dee9b7ecd422">
-   <img width="1440" alt="resturants" src="https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/14215726-e0ef-4c11-bc5a-64a8ef85bc0e">
-   <img width="1440" alt="reserve" src="https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/5750b8a2-ff17-4eda-89b5-4c292fbc60e6">
-   <img width="1440" alt="Screenshot 2024-05-24 at 6 09 43 AM" src="https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/3941bf98-c30f-45e5-bbaa-5aa0d6ed0939">
+   ### Homepage
+![Homepage](https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/3a74d897-f0b4-4071-8fa6-dee9b7ecd422)
+
+### Restaurants
+![Restaurants](https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/14215726-e0ef-4c11-bc5a-64a8ef85bc0e)
+
+### Reservation Page
+![Reservation](https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/5750b8a2-ff17-4eda-89b5-4c292fbc60e6)
+
+### Additional Page
+![Additional Page](https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/3941bf98-c30f-45e5-bbaa-5aa0d6ed0939)
 
 
 
