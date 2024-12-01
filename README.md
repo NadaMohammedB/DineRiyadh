@@ -68,22 +68,12 @@ Make sure you have the following installed on your machine:
   ```
    The application should now be running on http://localhost:3000.
 
-  ## Screenshots
-   ### Homepage
-![Homepage](https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/3a74d897-f0b4-4071-8fa6-dee9b7ecd422)
-
-### Restaurants
-![Restaurants](https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/14215726-e0ef-4c11-bc5a-64a8ef85bc0e)
-
-### Reservation Page
-![Reservation](https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/5750b8a2-ff17-4eda-89b5-4c292fbc60e6)
-
-### Additional Page
+## Screenshots
 ![Additional Page](https://github.com/NadaMohammedB/DineRiyadh/assets/124522150/3941bf98-c30f-45e5-bbaa-5aa0d6ed0939)
 
 
 
-   ## Future work
+## Future work
 
 
 - **Working on additional pages, such as the sign-up and forget password pages** 
@@ -92,12 +82,12 @@ Make sure you have the following installed on your machine:
 - **Let users rate cafes and restaurants to share their experiences**
 - **Improve the quality of our website and add more features**
 
-  ## Demo & Presentation  
+## Demo & Presentation  
 
 - [Presentation](https://www.canva.com/design/DAGGGfDto4A/eHPn0O822OyWSzWT9uIeWQ/view?utm_content=DAGGGfDto4A&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 
-   ## Resources 
+## Resources 
 
 - [Flaticon](https://www.flaticon.com)
 - [Fontawesome](https://fontawesome.com)
@@ -113,7 +103,7 @@ Make sure you have the following installed on your machine:
 - [Entrecote Cafe De Paris](https://www.instagram.com/p/Cs4Cjr5oDe7/?igsh=MWlpcWR4djFrcTU5dQ==)
 
  
-## Contributers
+ ## Contributers
 
 
 - **Nada Alotaibi** 
